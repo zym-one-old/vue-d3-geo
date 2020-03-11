@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-
+// import Canvas from '../views/Canvas.vue'
 const NProgress = require('nprogress')
 import 'nprogress/nprogress.css'
 
@@ -13,14 +13,15 @@ const routes = [
     name: 'Home',
     component: Home
   },
-  {
-    path: '/about',
-    name: 'About',
-    component: () => import('../views/About.vue')
-  }
+  // {
+  //   path: '/canvas',
+  //   name: 'Canvas',
+  //   component: Canvas
+  // }
 ]
 
 const router = new VueRouter({
+  mode: 'history',
   routes
 })
 

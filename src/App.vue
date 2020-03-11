@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -11,18 +11,15 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
+  background-image: linear-gradient(0deg, #f5f5f5 1.1px, transparent 0),
+    linear-gradient(90deg, #f5f5f5 1.1px, transparent 0);
+  background-size: 40px 40px;
+  background-color: #e8e8e8;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  // background: url("/bg.jpg");
+  // background-attachment: fixed;
+  // background-color: #f5f7f9;
+  // background: linear-gradient(45deg,#e91e63,#9c27b0); 
 }
 </style>
