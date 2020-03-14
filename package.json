@@ -14,7 +14,6 @@
     "d3-geo-projection": "^2.8.1",
     "d3-selection": "^1.4.1",
     "element-ui": "^2.4.5",
-    "nprogress": "^0.2.0",
     "topojson-client": "^3.1.0",
     "versor": "^0.1.2",
     "vue": "^2.6.11",

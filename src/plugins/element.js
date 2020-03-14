@@ -8,3 +8,4 @@ Vue.use(Radio);
 Vue.use(Checkbox);
 Vue.use(InputNumber);
 Vue.use(ColorPicker);
+  
